@@ -1,0 +1,138 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-profile {
+    max-width: 12rem;
+    max-height: 16rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-lg-block {
+    display: block !important;
+    margin-left: 45px;
+    padding-top: 250px;
+}
+
+.d-block {
+    display: block !important;
+}
+
+@media (min-width: 992px) {
+    .d-lg-none {
+        display: none !important;
+    }
+}
+
+
+/*--- CSS Started from here--- */
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.bg-primary {
+    background-color: rgb(147, 192, 147) !important;
+    float: none;
+}
+
+.column {
+    /* float: left;
+    padding: 10px; */
+    height: 100px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* .left {
+    width: 20%;
+    display: inline-block;
+} */
+
+.right {
+    width: 80%;
+    display: inline-block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mb-0 {
+    font-weight: 700;
+    color: #bd5d38 !important;
+}
+
+.text2-primary {
+    display: inline;
+    font-weight: 700;
+}
+
+.subheading {
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+p.lead {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+h1,
+.h1 {
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 75px;
+}
+
+.heading {
+    font-weight: 600;
+    text-align: center !important;
+}
+
+.row {
+    margin-left: 10px;
+}
+
+div.dropup {
+    top: 473px;
+    position: relative;
+}
+
+h4 {
+    margin-left: 75px;
+}

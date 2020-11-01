@@ -1,0 +1,105 @@
+.mycard{
+    margin:40px;
+     transition: all .2s ease-in-out; 
+     border:1px solid #1a73e8 !important;
+}
+.head{
+    text-align: center;
+    font-family: cursive;
+    background: radial-gradient(black, transparent);
+    border: 1px solid transparent;
+    color: white;
+}
+.mycard:hover{
+    border: 1px solid #1a73e8 !important;
+    box-shadow: 2px 4px 12px 3px #1a73e8;
+    transform: scale(1.1);
+}
+.mycard2{
+    background-color: grey !important;
+}
+.mycard3{
+    background-color: orange !important;
+}
+.mycard4{
+    background-color: cyan !important;
+}
+.mycard5{
+    background-color: cornflowerblue !important;
+}
+.mainbody{
+    background-color: darkslategray;;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #111;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    
+  }
+  .left hr{
+      border:1px solid white;
+  }
+  
+  .right {
+    right: 0;
+    background-color: white;
+    text-align: center;
+    font-family: cursive;
+    
+  }
+  .right hr{
+    border:1px solid black;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .right h1{
+      font-size: 23px;
+  }
+  .left h1{
+    font-size:23px;
+  }
+  .formtemp1{
+    padding: 0px 165px;
+  }
+  a{
+      color:black !important;
+      text-decoration: none;
+      
+  }
+  a:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+.dispouter{
+  text-align: center;
+}
+.disp{
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    top: 52px;
+
+}

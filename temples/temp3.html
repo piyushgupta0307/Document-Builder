@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Documents Builder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="template.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js" integrity="sha512-ICHkAOXzVDEkL5xkXjAWRV/hx6Bq4ID/uhRcnj9zS7QCdCbhVtfgjwt/vTfUBtW1wzBkErImU0huK3LDVeEr8g==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="temp3.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="row">
+            <div class="container-fluid column right">
+                <!-- About-->
+                <section class="about-section" id="about">
+                    <div class="about-section-content" id="body">
+                        <h1 id="txt1" class="mb-0 heading"> </h1>
+
+                        <h4 id="txt2" class="text2-primary"> </h4>
+                        <p id="txt2content"></p>
+                        <h4 id="txt3" class="subheading"></h4>
+                        <p id="txt3content"></p>
+                        <span id="content1"></span>
+                        <p id="txt4" class="lead"> </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="dropup">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Download File
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a onclick="Export2Pdf();">DownLoad as PDF File</a></li>
+                <li><a onclick="Export2Doc('body', 'download');">DownLoad as DOC File</a></li>
+                <li><a onclick="Export2Txt('body', 'download');">DownLoad as TEXT File</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

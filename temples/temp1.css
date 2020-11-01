@@ -1,0 +1,66 @@
+.header {
+    background-image: linear-gradient(rgb(170 179 191 / 80%), rgba(9, 84, 182, 0.8));
+    height: 75px;
+    width: 100%;
+    position: static;
+}
+
+.header_logo {
+    background-image: url("../assets/images/logo11.png");
+    height: 15%;
+    width: 4%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.heading-extra {
+    font-weight: normal;
+}
+
+h1,
+.h1,
+body.toolkit .typography__h1 {
+    font-size: 2.6rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-weight: 800;
+    text-align: center;
+}
+
+label {
+    display: block;
+    max-width: 100%;
+    line-height: 1.5em;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+input {
+    line-height: 1.5;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    padding-top: 7.5px;
+    padding-right: 28.5px;
+    padding-bottom: 7.5px;
+    padding-left: 28.5px;
+}
+
+label {
+    font-weight: 800;
+}
+
+.preview {
+    text-align: center;
+}
+
+.btn-secondary {
+    margin-top: 15px;
+}

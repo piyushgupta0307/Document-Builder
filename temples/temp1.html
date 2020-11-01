@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Documents Builder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="temp1.js"></script>
+
+    <link rel="stylesheet" href="temp1.css">
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <div class="header_logo"></div>
+    </div>
+    <div class="container-fluid">
+
+        <h1><span class="heading-extra">Complete Your</span> Document Heading</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <form name="temp1" method="post">
+                    <div class="row">
+                        <div class="col-lg-12"> <label>Enter Your Document Heading</label>
+                            <input type="text" id="inputbox1" class="form-control" placeholder="Enter Your Document Name" onkeyup="myFunction()" required></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12"> <label>Subheading1</label>
+                            <input type="text" id="inputbox2" class="form-control" placeholder="Subheading1" onkeyup="myFunction()" required></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12"> <label>Subheading1 Content</label>
+                            <input type="text" id="inputbox2content" class="form-control" placeholder="Subheading1 Content" onkeyup="myFunction()" required></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12"><label>Subheading2</label>
+                            <input type="text" id="inputbox3" class="form-control" placeholder="Subheading2" onkeyup="myFunction()"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12"><label>Subheading2 Content</label>
+                            <input type="text" id="inputbox3content" class="form-control" placeholder="Subheading2 Content" onkeyup="myFunction()"></div>
+                    </div>
+
+
+                    <span id="content"></span>
+
+                    <div class="row">
+                        <div class="col-lg-12"><label>About</label>
+                            <textarea id="inputbox4" cols="5" rows="5" class="form-control" onkeyup="myFunction()"></textarea>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-lg-6"><button type="button" class="btn btn-primary" onclick="resetPage()">Reset</button></div>
+                        <div class="col-lg-6"><button type="button" class="btn btn-primary">Save</button></div>
+
+
+                    </div>
+
+                </form>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="preview"><label for="preview">Preview</label></div>
+                    <div id="123">
+                        <object id='obj' data="" width="600" height="500" style="overflow:none;"></object>
+                        <!-- <iframe class=" embed-responsive-item " id="myframe " src=" " width="600 " height="400 " style="overflow:hidden; ">
+                        </iframe> --></div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
